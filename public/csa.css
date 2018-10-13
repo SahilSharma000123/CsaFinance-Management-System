@@ -1,0 +1,161 @@
+
+body{
+    background-image: url(ThreeWheeler.jpg);
+    
+}
+
+
+nav ul{
+    padding:0px;
+  background-color:lightcyan;
+}
+
+nav ul ul {
+    display: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    border-right: 2px solid darkblue;
+   
+}
+nav li:hover > ul{
+    display: inline-block;
+position: fixed;
+color:burlywood;
+
+transition: color 2s;
+}
+nav ul{
+    white-space: nowrap;
+
+}
+nav ul ul>li {
+display: block;
+}
+#button1
+{
+    font-family: sans-serif;
+    position: fixed;
+    right: 15px;
+    top: 3px;
+    color: brown;
+    letter-spacing: 2px;
+    transform: scale(1.1);
+}
+
+nav{
+    position: relative;
+    top: 30px;
+    
+}
+#button1:hover{
+   color:blue;
+   
+}
+#button2{
+    
+    position: fixed;
+    right: 100px;
+    top: 3px;
+    letter-spacing: 2px;
+    font-family:  sans-serif;
+    transform: scale(1.1);
+}
+#button2:hover{
+    color:blue;
+}
+#div1
+{
+    /*font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    */font-style: italic;
+
+    padding: 10px;
+    display: inline-block;
+  box-shadow: 4px 3px 2px blue;
+  margin: 20px;
+
+
+    /*position: absolute;
+    top: 20px;
+    left: 0vmax;
+    text-align: center;*/
+}
+#logout
+{
+    margin-top:0px;
+    position: fixed;
+    right: 0px;
+    padding:8px;
+}
+#searchbox
+{
+    display: block;
+    margin-left: 50px;
+    width: 500px;
+    height: 50px;
+    position: fixed;
+    top: 200px;
+    font-family: sans-serif;
+
+}
+#search
+{
+position:fixed;
+    top:200px;
+    left: 550px;
+
+}
+.tab
+{
+    dispaly :inline-block;
+    margin: 20px;
+
+
+}
+.tablinks{
+    font-family: sans-serif;
+    padding: 25px;
+
+}
+.tablinks:hover{
+    background-color: pink;
+    text-decoration: none;
+}
+div a{
+    padding: 12px;
+    display: inline;
+}
+.modal-body{
+    margin:5px;
+    padding:5px;
+}
+/*#SearchDiv*/
+/*{*/
+    /*margin: 150px;*/
+
+/*}*/
+#basediv{
+
+    width: 150vh;
+    height: 250px;
+
+    background-color: lightcoral;
+        display: inline-block;
+    margin-left: 98px;
+
+    padding: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: large;
+}
+.lists{
+    margin-left: 55px;
+
+}
+
+#adiv2{
+    margin-top: 160px;
+    padding: 50px;
+
+}
